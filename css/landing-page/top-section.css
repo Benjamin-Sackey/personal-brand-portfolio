@@ -1,0 +1,57 @@
+#top-section{
+    background: url('../../img/personal-brand.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  line-height: 1.6;
+  height: 95vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 150px;
+ 
+
+}
+
+#top-section .profile-info .user-details h1{
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  
+}
+#top-section .profile-info .user-details p{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px; 
+}
+#top-section .profile-info .user-details a{
+    color: white;
+    font-size: 15px;
+    background: black;
+    padding: 12px;
+    border-radius: 10px;
+    transition: background .4s ease-in-out;
+    
+}
+#top-section .profile-info .user-details a:hover{
+    background: #2196F3;
+  
+    
+  }
+
+
+
+
+/* Tablets */
+@media only screen and (max-width: 960px){
+ 
+
+  }
+  
+
+/* Phones */
+@media only screen and (max-width: 767px){
+    
+  }
+  

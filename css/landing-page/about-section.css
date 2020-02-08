@@ -1,0 +1,49 @@
+#about-section{
+    padding: 80px 15px; 
+     
+}
+#about-section .title{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+         
+#about-section .title h1{
+    position: relative;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #16171b;
+    z-index: 1;
+    letter-spacing: 4px;
+}
+
+#about-section .about-container img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    
+    
+}
+#about-section .about-text{
+    margin: 50px;
+    font-family: Open Sans;
+
+}
+
+#about-section .about-text p{
+    
+    width: 850px;
+    margin: auto;
+    font-size: 1.2rem;
+    color:  #929294;
+    text-align: justify;
+    line-height: 1.7;
+}
